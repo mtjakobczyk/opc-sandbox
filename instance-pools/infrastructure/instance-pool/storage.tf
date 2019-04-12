@@ -1,4 +1,4 @@
-# ipool module - storage.tf
+# instance-pool module - storage.tf
 
 resource "opc_compute_storage_volume" "instance_bootvolume" {
   count = "${var.instance_count}"
