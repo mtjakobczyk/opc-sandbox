@@ -1,4 +1,4 @@
-# ipool module - networking.tf
+# instance-pool module - networking.tf
 
 resource "opc_compute_ip_address_reservation" "ip_rsv_public" {
   count = "${var.instance_count}"
